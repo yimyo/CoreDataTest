@@ -12,11 +12,18 @@
 
 
 @synthesize window=_window;
+@synthesize navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
+    TestUiView *myView = [[[TestUiView alloc]init]autorelease];
+    UINavigationController *myNavigationController = [[[UINavigationController alloc]initWithRootViewController:myView]autorelease];
+    
+    self.window.rootViewController = myNavigationController;
+    
+    
     return YES;
 }
 

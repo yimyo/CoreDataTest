@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface TheUserOnwerSeedList : NSObject
+{
+    int leafNumber;
+    int seedNumber;
+}
 
 @end

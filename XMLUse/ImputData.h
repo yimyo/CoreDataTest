@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <CoreData/CoreData.h>
+#import "CoreDataBaseUse.h"
 @interface ImputData : NSObject
-
++(void)addUserTreeData:(NSString*)treeID addRound:(NSString*)userRound;
 @end

@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "XMLParser.h"
+#import "XMLList.h"
+
+#import "Tree.h"
+#import "Round.h"
+
 
 @interface CoreDataBaseUse : NSObject
 
++ (id) sharedDataStore ;
+- (NSManagedObjectContext *) disposableMOC;
+-(void) setXMLData;
 @end

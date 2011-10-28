@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "SearchTreeData.h"
+#import "TheTreesListInMap.h"
 
-@interface TestUiView : UIViewController
-
+@interface TestUiView : UIViewController{
+    int leafNumber;
+}
+@property(nonatomic,retain)IBOutlet UIButton *TestButton;
+@property(nonatomic,retain)IBOutlet UIButton *TestButton2;
+@property(nonatomic,retain)IBOutlet UIButton *TestButton3;
+-(IBAction)tsetClick:(id)sender;
+-(IBAction)tsetClick2:(id)sender;
+-(IBAction)tsetClick3:(id)sender;
 @end

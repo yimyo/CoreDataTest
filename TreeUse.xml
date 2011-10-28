@@ -1,12 +1,30 @@
 ﻿<Tree>
 	<TreeIndex>
-		<TREE_ID>1</TREE_ID>
+		<TREE_ID>10</TREE_ID>
 		<TREE_KIND>Ficus microcarpa L. f.</TREE_KIND>
-		<TREE_xAddress>中正區梅花里八德路一段51號光華商場右邊停車場內</TREE_xAddress>
+        <TREE_LATITUDE>25.045792</TREE_LATITUDE>
+        <TREE_LONGITUDE>121.546383</TREE_LONGITUDE>
+		<TREE_XADDRESS>臺北市中正區梅花里八德路一段51號光華商場右邊停車場內</TREE_XADDRESS>	
+    </TreeIndex>
+    <TreeIndex>
+		<TREE_ID>9</TREE_ID>
+		<TREE_KIND>Ficus microcarpa L. f.</TREE_KIND>
+        <TREE_LATITUDE>28.045792</TREE_LATITUDE>
+        <TREE_LONGITUDE>123.546383</TREE_LONGITUDE>
+		<TREE_XADDRESS>臺北市中正區河堤里水源路65號左側綠地近紀州庵</TREE_XADDRESS>
 	</TreeIndex>
-	<TreeIndex>
-		<TREE_ID>24</TREE_ID>
-		<TREE_KIND>Ficus microcarpa L. f.</TREE_KIND>
-		<TREE_xAddress>臺北市中正區河堤里水源路65號左側綠地近紀州庵</TREE_xAddress>
+    <TreeIndex>
+		<TREE_ID>10</TREE_ID>
+		<TREE_KIND>SSSSFicus microcarpa L. f.</TREE_KIND>
+        <TREE_LATITUDE>32.045792</TREE_LATITUDE>
+        <TREE_LONGITUDE>125.546383</TREE_LONGITUDE>
+		<TREE_XADDRESS>臺北市中正區南門里和平西路二段61號旁植物園側門口的行道樹</TREE_XADDRESS>
+	</TreeIndex>
+    <TreeIndex>
+		<TREE_ID>100</TREE_ID>
+		<TREE_KIND>GGGGFicus microcarpa L. f.</TREE_KIND>
+        <TREE_LATITUDE>35.045792</TREE_LATITUDE>
+        <TREE_LONGITUDE>128.546383</TREE_LONGITUDE>
+		<TREE_XADDRESS>臺北市中正區文北里杭州南路一段77巷19號荒廢停車場正前方內側</TREE_XADDRESS>
 	</TreeIndex>
 </Tree>

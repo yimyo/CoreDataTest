@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C593811A1446294600CD2452 /* TreeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C59381181446294600CD2452 /* TreeModel.xcdatamodeld */; };
 		C59B09A91442B17F00398A74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09A81442B17F00398A74 /* UIKit.framework */; };
 		C59B09AB1442B17F00398A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09AA1442B17F00398A74 /* Foundation.framework */; };
 		C59B09AD1442B17F00398A74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09AC1442B17F00398A74 /* CoreGraphics.framework */; };
@@ -20,6 +21,21 @@
 		C59B09CD1442B18000398A74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C59B09CB1442B18000398A74 /* InfoPlist.strings */; };
 		C59B09D01442B18000398A74 /* XMLUseTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C59B09CF1442B18000398A74 /* XMLUseTests.h */; };
 		C59B09D21442B18000398A74 /* XMLUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09D11442B18000398A74 /* XMLUseTests.m */; };
+		C59B09E31442C42000398A74 /* XMLList.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09E21442C42000398A74 /* XMLList.m */; };
+		C59B09EB1443603E00398A74 /* TreeUse.xml in Resources */ = {isa = PBXBuildFile; fileRef = C59B09EA1443603E00398A74 /* TreeUse.xml */; };
+		DD1C4266145A585B00AF15DD /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1C4265145A585B00AF15DD /* XMLParser.m */; };
+		DD8C2AA614566990002A9AB6 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C2AA514566990002A9AB6 /* Round.m */; };
+		DD8C2AA914566A0C002A9AB6 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C2AA814566A0B002A9AB6 /* Tree.m */; };
+		DDBB4852144BCE0C00BA32C1 /* ImputData.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBB4851144BCE0C00BA32C1 /* ImputData.m */; };
+		DDC210F51455066D00A26560 /* TheUserOnwerSeedList.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC210F41455066D00A26560 /* TheUserOnwerSeedList.m */; };
+		DDC4655C144D59A7002B0CF2 /* Tree_Test_Data.xml in Resources */ = {isa = PBXBuildFile; fileRef = DDC4655B144D59A7002B0CF2 /* Tree_Test_Data.xml */; };
+		DDC46560144D5F25002B0CF2 /* SearchTreeData.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC4655F144D5F25002B0CF2 /* SearchTreeData.m */; };
+		DDC46564144D6A99002B0CF2 /* TestUiView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC46562144D6A98002B0CF2 /* TestUiView.m */; };
+		DDC46565144D6A99002B0CF2 /* TestUiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC46563144D6A98002B0CF2 /* TestUiView.xib */; };
+		DDC60E49144FB62A0092AB9A /* TheTreesListInMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC60E48144FB62A0092AB9A /* TheTreesListInMap.m */; };
+		DDC60E51144FC28F0092AB9A /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC60E50144FC28F0092AB9A /* Tools.m */; };
+		DDC64F9D14467B9100FB37DF /* CoreDataBaseUse.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC64F9C14467B9100FB37DF /* CoreDataBaseUse.m */; };
+		DDC64FA014467C3800FB37DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC64F9F14467C3800FB37DF /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,23 +49,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C59381191446294600CD2452 /* TreeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TreeModel.xcdatamodel; sourceTree = "<group>"; };
 		C59B09A41442B17F00398A74 /* XMLUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59B09A81442B17F00398A74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C59B09AA1442B17F00398A74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C59B09AC1442B17F00398A74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C59B09B01442B17F00398A74 /* XMLUse-Info.plist */ = {isa = PBXFileReference; path = "XMLUse-Info.plist"; sourceTree = "<group>"; };
+		C59B09B01442B17F00398A74 /* XMLUse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLUse-Info.plist"; sourceTree = "<group>"; };
 		C59B09B21442B18000398A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C59B09B41442B18000398A74 /* XMLUse-Prefix.pch */ = {isa = PBXFileReference; path = "XMLUse-Prefix.pch"; sourceTree = "<group>"; };
+		C59B09B41442B18000398A74 /* XMLUse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLUse-Prefix.pch"; sourceTree = "<group>"; };
 		C59B09B51442B18000398A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C59B09B71442B18000398A74 /* XMLUseAppDelegate.h */ = {isa = PBXFileReference; path = XMLUseAppDelegate.h; sourceTree = "<group>"; };
+		C59B09B71442B18000398A74 /* XMLUseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLUseAppDelegate.h; sourceTree = "<group>"; };
 		C59B09B81442B18000398A74 /* XMLUseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLUseAppDelegate.m; sourceTree = "<group>"; };
 		C59B09BB1442B18000398A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		C59B09C21442B18000398A74 /* XMLUseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLUseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C59B09CA1442B18000398A74 /* XMLUseTests-Info.plist */ = {isa = PBXFileReference; path = "XMLUseTests-Info.plist"; sourceTree = "<group>"; };
+		C59B09CA1442B18000398A74 /* XMLUseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLUseTests-Info.plist"; sourceTree = "<group>"; };
 		C59B09CC1442B18000398A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C59B09CE1442B18000398A74 /* XMLUseTests-Prefix.pch */ = {isa = PBXFileReference; path = "XMLUseTests-Prefix.pch"; sourceTree = "<group>"; };
+		C59B09CE1442B18000398A74 /* XMLUseTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLUseTests-Prefix.pch"; sourceTree = "<group>"; };
 		C59B09CF1442B18000398A74 /* XMLUseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLUseTests.h; sourceTree = "<group>"; };
 		C59B09D11442B18000398A74 /* XMLUseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLUseTests.m; sourceTree = "<group>"; };
+		C59B09E11442C42000398A74 /* XMLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLList.h; sourceTree = "<group>"; };
+		C59B09E21442C42000398A74 /* XMLList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLList.m; sourceTree = "<group>"; };
+		C59B09EA1443603E00398A74 /* TreeUse.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TreeUse.xml; path = ../TreeUse.xml; sourceTree = "<group>"; };
+		DD1C4264145A585B00AF15DD /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		DD1C4265145A585B00AF15DD /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		DD8C2A94145668F8002A9AB6 /* TreeModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TreeModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		DD8C2AA414566990002A9AB6 /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		DD8C2AA514566990002A9AB6 /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		DD8C2AA714566A0B002A9AB6 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		DD8C2AA814566A0B002A9AB6 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		DDBB4850144BCE0C00BA32C1 /* ImputData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImputData.h; sourceTree = "<group>"; };
+		DDBB4851144BCE0C00BA32C1 /* ImputData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImputData.m; sourceTree = "<group>"; };
+		DDC210F31455066C00A26560 /* TheUserOnwerSeedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheUserOnwerSeedList.h; sourceTree = "<group>"; };
+		DDC210F41455066D00A26560 /* TheUserOnwerSeedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheUserOnwerSeedList.m; sourceTree = "<group>"; };
+		DDC4655B144D59A7002B0CF2 /* Tree_Test_Data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tree_Test_Data.xml; sourceTree = "<group>"; };
+		DDC4655E144D5F25002B0CF2 /* SearchTreeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTreeData.h; sourceTree = "<group>"; };
+		DDC4655F144D5F25002B0CF2 /* SearchTreeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTreeData.m; sourceTree = "<group>"; };
+		DDC46561144D6A98002B0CF2 /* TestUiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUiView.h; sourceTree = "<group>"; };
+		DDC46562144D6A98002B0CF2 /* TestUiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUiView.m; sourceTree = "<group>"; };
+		DDC46563144D6A98002B0CF2 /* TestUiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestUiView.xib; sourceTree = "<group>"; };
+		DDC60E47144FB62A0092AB9A /* TheTreesListInMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheTreesListInMap.h; sourceTree = "<group>"; };
+		DDC60E48144FB62A0092AB9A /* TheTreesListInMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheTreesListInMap.m; sourceTree = "<group>"; };
+		DDC60E4F144FC28E0092AB9A /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		DDC60E50144FC28F0092AB9A /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		DDC64F9B14467B9100FB37DF /* CoreDataBaseUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataBaseUse.h; sourceTree = "<group>"; };
+		DDC64F9C14467B9100FB37DF /* CoreDataBaseUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataBaseUse.m; sourceTree = "<group>"; };
+		DDC64F9F14467C3800FB37DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC64FA014467C3800FB37DF /* CoreData.framework in Frameworks */,
 				C59B09A91442B17F00398A74 /* UIKit.framework in Frameworks */,
 				C59B09AB1442B17F00398A74 /* Foundation.framework in Frameworks */,
 				C59B09AD1442B17F00398A74 /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +143,7 @@
 		C59B09A71442B17F00398A74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDC64F9F14467C3800FB37DF /* CoreData.framework */,
 				C59B09A81442B17F00398A74 /* UIKit.framework */,
 				C59B09AA1442B17F00398A74 /* Foundation.framework */,
 				C59B09AC1442B17F00398A74 /* CoreGraphics.framework */,
@@ -108,9 +154,35 @@
 		C59B09AE1442B17F00398A74 /* XMLUse */ = {
 			isa = PBXGroup;
 			children = (
+				C59B09EA1443603E00398A74 /* TreeUse.xml */,
+				DDC4655B144D59A7002B0CF2 /* Tree_Test_Data.xml */,
+				DDC60E4F144FC28E0092AB9A /* Tools.h */,
+				DDC60E50144FC28F0092AB9A /* Tools.m */,
 				C59B09B71442B18000398A74 /* XMLUseAppDelegate.h */,
 				C59B09B81442B18000398A74 /* XMLUseAppDelegate.m */,
 				C59B09BA1442B18000398A74 /* MainWindow.xib */,
+				C59B09E11442C42000398A74 /* XMLList.h */,
+				C59B09E21442C42000398A74 /* XMLList.m */,
+				DD1C4264145A585B00AF15DD /* XMLParser.h */,
+				DD1C4265145A585B00AF15DD /* XMLParser.m */,
+				DDC64F9B14467B9100FB37DF /* CoreDataBaseUse.h */,
+				DDC64F9C14467B9100FB37DF /* CoreDataBaseUse.m */,
+				DDBB4850144BCE0C00BA32C1 /* ImputData.h */,
+				DDBB4851144BCE0C00BA32C1 /* ImputData.m */,
+				DDC4655E144D5F25002B0CF2 /* SearchTreeData.h */,
+				DDC4655F144D5F25002B0CF2 /* SearchTreeData.m */,
+				DDC60E47144FB62A0092AB9A /* TheTreesListInMap.h */,
+				DDC60E48144FB62A0092AB9A /* TheTreesListInMap.m */,
+				DDC210F31455066C00A26560 /* TheUserOnwerSeedList.h */,
+				DDC210F41455066D00A26560 /* TheUserOnwerSeedList.m */,
+				DDC46561144D6A98002B0CF2 /* TestUiView.h */,
+				DDC46562144D6A98002B0CF2 /* TestUiView.m */,
+				DDC46563144D6A98002B0CF2 /* TestUiView.xib */,
+				DD8C2AA414566990002A9AB6 /* Round.h */,
+				DD8C2AA514566990002A9AB6 /* Round.m */,
+				C59381181446294600CD2452 /* TreeModel.xcdatamodeld */,
+				DD8C2AA714566A0B002A9AB6 /* Tree.h */,
+				DD8C2AA814566A0B002A9AB6 /* Tree.m */,
 				C59B09AF1442B17F00398A74 /* Supporting Files */,
 			);
 			path = XMLUse;
@@ -191,6 +263,9 @@
 /* Begin PBXProject section */
 		C59B099B1442B17F00398A74 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C59B099E1442B17F00398A74 /* Build configuration list for PBXProject "XMLUse" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -216,6 +291,9 @@
 			files = (
 				C59B09B31442B18000398A74 /* InfoPlist.strings in Resources */,
 				C59B09BC1442B18000398A74 /* MainWindow.xib in Resources */,
+				C59B09EB1443603E00398A74 /* TreeUse.xml in Resources */,
+				DDC4655C144D59A7002B0CF2 /* Tree_Test_Data.xml in Resources */,
+				DDC46565144D6A99002B0CF2 /* TestUiView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +331,18 @@
 			files = (
 				C59B09B61442B18000398A74 /* main.m in Sources */,
 				C59B09B91442B18000398A74 /* XMLUseAppDelegate.m in Sources */,
+				C59B09E31442C42000398A74 /* XMLList.m in Sources */,
+				C593811A1446294600CD2452 /* TreeModel.xcdatamodeld in Sources */,
+				DDC64F9D14467B9100FB37DF /* CoreDataBaseUse.m in Sources */,
+				DDBB4852144BCE0C00BA32C1 /* ImputData.m in Sources */,
+				DDC46560144D5F25002B0CF2 /* SearchTreeData.m in Sources */,
+				DDC46564144D6A99002B0CF2 /* TestUiView.m in Sources */,
+				DDC60E49144FB62A0092AB9A /* TheTreesListInMap.m in Sources */,
+				DDC60E51144FC28F0092AB9A /* Tools.m in Sources */,
+				DDC210F51455066D00A26560 /* TheUserOnwerSeedList.m in Sources */,
+				DD8C2AA614566990002A9AB6 /* Round.m in Sources */,
+				DD8C2AA914566A0C002A9AB6 /* Tree.m in Sources */,
+				DD1C4266145A585B00AF15DD /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +432,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLUse/XMLUse-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "XMLUse/XMLUse-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -355,6 +446,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLUse/XMLUse-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "XMLUse/XMLUse-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
@@ -373,6 +465,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLUseTests/XMLUseTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "XMLUseTests/XMLUseTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -395,6 +488,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLUseTests/XMLUseTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "XMLUseTests/XMLUseTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -425,6 +519,7 @@
 				C59B09D71442B18000398A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59B09D81442B18000398A74 /* Build configuration list for PBXNativeTarget "XMLUseTests" */ = {
 			isa = XCConfigurationList;
@@ -433,8 +528,23 @@
 				C59B09DA1442B18000398A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C59381181446294600CD2452 /* TreeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD8C2A94145668F8002A9AB6 /* TreeModel 2.xcdatamodel */,
+				C59381191446294600CD2452 /* TreeModel.xcdatamodel */,
+			);
+			currentVersion = DD8C2A94145668F8002A9AB6 /* TreeModel 2.xcdatamodel */;
+			path = TreeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C59B099B1442B17F00398A74 /* Project object */;
 }

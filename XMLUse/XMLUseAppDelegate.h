@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestUiView.h"
 
-@interface XMLUseAppDelegate : NSObject <UIApplicationDelegate> {
-
-}
+@interface XMLUseAppDelegate : NSObject <UIApplicationDelegate> 
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic,retain)IBOutlet UINavigationController *navigationController;
 
 @end
